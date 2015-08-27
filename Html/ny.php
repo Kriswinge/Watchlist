@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>Din film/serie har blitt lagt til!</title>
 </head>
 <body>
     <h1>Din film/serie har blitt lagt til!</h1>
