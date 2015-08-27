@@ -23,7 +23,9 @@
     
 </head>
 <body>
-    <h1>Watchlist</h1>
+<nav class="navbar navbar-inverse">
+    <center><h1>Watchlist</h1></center>
+</nav>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -31,10 +33,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <form action="ny.php" method="post">
 <table>
-    <tr><td>Tittel:</td><td><input type="text" name="tittel"></td></tr>
-	<tr><td>Beskrivelse:</td><td><textarea rows="10" cols="40" name="tekst" name="tekst"></textarea></td></tr>
-    <tr><td>Regi:</td><td><input type="text" name="navn"></td></tr>
-	<tr><td></td><td><input type="submit" value="Legg til"></td></tr>
+    <tr><td><p>Tittel:</p></td><td><input type="text" name="tittel"></td></tr>
+    <tr><td><p>Beskrivelse:</p></td><td><textarea rows="10" cols="40" name="tekst" name="tekst"></textarea></td></tr>
+    <tr><td><p>Regi:</p></td><td><input type="text" name="navn"></td></tr>
+	<tr><td></td><td><span class="label label-primary">Legg til</span></td></tr>
 </table>    
 </form>
 </body>
